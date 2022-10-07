@@ -1,0 +1,10 @@
+USERNAME='root'
+PASSWORD='root'
+SERVER='localhost'
+DB='controle_financeiro'
+
+SQLALCHEMY_DATABASE_URI='mysql://{USERNAME}:{PASSWORD}@{SERVER}/{DB}'
+
+SQLALCHEMY_TRACK_MODIFICATIONS=True
+
+SECRET_KEY='chave_secreta'
